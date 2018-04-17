@@ -7,11 +7,11 @@ Contact: Renato Tinos <rtinos@ffclrp.usp.br>
 
 Running the code: ./NKGAclust <name_of_instance> <K> <load initial solutions from file>
 
-<name_of_instance>: an example of the dataset format is given in file Compound.dat (Zahns Compound: https://cs.joensuu.fi/sipu/datasets/ )
+name_of_instance: an example of the dataset format is given in file Compound.dat (Zahns Compound: https://cs.joensuu.fi/sipu/datasets/ )
 
-<K>: Parameter of the NK clustering validation 2 (NKCV2) criterion. We recommend to use K=3.
+K: Parameter of the NK clustering validation 2 (NKCV2) criterion. We recommend to use K=3.
 
-<load initial solutions from file>: 1 if a file with initial solutions is provided and 0 otherwise. If the parameter is 0, initial random solutions are generated. Examples of files for initial solutions are given in: Compound_1.sol (generated using k-means), Compound_2.sol (generated using DBSCAN), and Compound_3.sol (generated using DP clustering algorithm).
+load initial solutions from file: 1 if a file with initial solutions is provided and 0 otherwise. If the parameter is 0, initial random solutions are generated. Examples of files for initial solutions are given in: Compound_1.sol (generated using k-means), Compound_2.sol (generated using DBSCAN), and Compound_3.sol (generated using DP clustering algorithm).
 
 Example for running the code with instance Compound: 
 
